@@ -1,0 +1,137 @@
+html{
+  font-size: 16px;
+}
+.conteiner{
+    width: 1920px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+body{
+    display: flex;
+    font-family: Open sans;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+*{
+  box-sizing: border-box;
+ }
+
+.flex1{
+    padding: 30px;
+    text-align: center;
+    background: white;
+    font-size: 1rem;
+}
+
+.flex2{
+    overflow: hidden;
+    background-color: #333;
+} 
+
+.flex2 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.flex2 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.flex3{   
+    float: left;
+    width: 75%;
+    /* background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+  }
+.flex3cont1{
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex3>.flex3cont1>p,h2,h5{
+   margin: 20px;
+}
+.flex3>.flex.fakeimg {
+    background-color: #aaa;
+    padding: 20px;
+    margin: 20px;
+}
+
+.flex4{
+  width: 23%;
+  float: left;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.flex5{
+  width: 23%;
+  float: left;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.flex6{
+  width: 23%;
+  float: left;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.flex7{
+  width: 100%;
+  float: left;
+  background-color: #aaa ;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgpirmas{
+  width: 250px;
+}
+.imgantras{
+  width: 230px;
+}
+.imgtrecias{
+  width: 100px;
+}
+.imgketvirtas{
+  width: 100px;
+}
+.imgpenktas{
+  width: 100px;
+}
+.imgsestas{
+  width: 100px;
+}
+
+.rights>p{
+  text-align: center;
+}
+
+@media all and (max-width:720px) {
+  .conteiner{
+    flex-flow: column wrap;
+  }
+
+  [class*="flex"] {
+    width: 100%;
+    font-size: 0.5rem;
+  }
+}
